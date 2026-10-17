@@ -1,6 +1,6 @@
 # azure-bicep-arm-gate
 
-![ci](https://github.com/Sup3rMar10/azure-bicep-arm-gate/actions/workflows/ci.yml/badge.svg)
+![ci](https://github.com/Supp3r-Man/azure-bicep-arm-gate/actions/workflows/ci.yml/badge.svg)
 
 **A policy gate for Azure Bicep that runs before anything is deployed, and a what-if gate for after Azure has resolved the values.** Bicep is compiled by the **real Bicep compiler**, the resulting ARM template is read into resolved resources, and 18 rules check storage, Key Vault, network security groups, App Service and tags. The part most policy repos skip: values the gate cannot resolve are reported as **cannot verify and fail the gate**, never as "fine".
 
